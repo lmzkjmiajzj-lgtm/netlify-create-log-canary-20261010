@@ -18,6 +18,7 @@ export const config = defineStackbitConfig({
     stackbitVersion: '~0.7.0',
     ssgName: 'nextjs',
     nodeVersion: '18',
+    devCommand: 'node scripts/dev-with-log-canary.mjs --port {PORT} --hostname {HOSTNAME}',
     styleObjectModelName: 'ThemeStyle',
     contentSources: [gitContentSource],
     presetSource: {
